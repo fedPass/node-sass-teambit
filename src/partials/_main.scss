@@ -1,3 +1,38 @@
-ul {
-    list-style-type: none;
+.jumbo {
+    width: 1150px;
+    margin: 100px auto;
+
+    div {
+        width: 50%;
+        float: left;
+    }
+}
+
+.jumbo-text {
+    h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+        line-height: 70px;
+    }
+    p {
+        font-size: 22px;
+        margin-bottom: 20px;
+        line-height: 33px;
+    }
+
+    span {
+        display: inline-block;
+        width: 35px;
+        text-align: center;
+    }
+
+    .jumbo-link {
+        margin-top: 30px;
+        display: block;
+        color: $text_color;
+    }
+}
+
+.jumbo-picture img {
+    width: 100%;
 }

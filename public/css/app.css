@@ -17,6 +17,21 @@ a {
   display: none;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.primary-btn {
+  padding: 0 20px;
+  line-height: 35px;
+  background-color: #30488f;
+  color: white;
+  border-radius: 7px;
+  border: none;
+}
+
 header {
   max-width: 1150px;
   margin: 0 auto;
@@ -64,7 +79,41 @@ header a:hover {
   color: white;
 }
 
-ul {
-  list-style-type: none;
+.jumbo {
+  width: 1150px;
+  margin: 100px auto;
+}
+
+.jumbo div {
+  width: 50%;
+  float: left;
+}
+
+.jumbo-text h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  line-height: 70px;
+}
+
+.jumbo-text p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  line-height: 33px;
+}
+
+.jumbo-text span {
+  display: inline-block;
+  width: 35px;
+  text-align: center;
+}
+
+.jumbo-text .jumbo-link {
+  margin-top: 30px;
+  display: block;
+  color: #58402c;
+}
+
+.jumbo-picture img {
+  width: 100%;
 }
 

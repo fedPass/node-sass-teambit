@@ -16,3 +16,18 @@ a {
 .hidden {
     display: none;
 }
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.primary-btn {
+    padding: 0 20px;
+    line-height: 35px;
+    background-color: rgb(48, 72, 143);
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
