@@ -2,7 +2,7 @@ header {
     max-width: 1150px;
     margin: 0 auto;
     padding: 20px 0;
-    border-bottom: 1px solid $text_color;
+    border-bottom: $border_bottom;
 
     li {
         display: inline-block;
