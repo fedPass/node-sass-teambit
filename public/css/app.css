@@ -4,10 +4,64 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #58402c;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
 header {
   max-width: 1150px;
   margin: 0 auto;
   padding: 20px 0;
+  border-bottom: 1px solid #58402c;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  color: #58402c;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #30488f;
+}
+
+.main-menu {
+  display: inline-block;
+}
+
+.main-menu li {
+  margin-right: 20px;
+}
+
+.links-menu {
+  display: inline-block;
+  float: right;
+}
+
+#sign-up-btn {
+  padding: 0 20px;
+  line-height: 35px;
+  border: 1px solid #30488f;
+  background: #fff;
+  color: #30488f;
+  border-radius: 7px;
+}
+
+#sign-up-btn:hover {
+  background-color: #30488f;
+  color: white;
 }
 
 ul {

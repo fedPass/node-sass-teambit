@@ -2,4 +2,46 @@ header {
     max-width: 1150px;
     margin: 0 auto;
     padding: 20px 0;
+    border-bottom: 1px solid $text_color;
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        color: $text_color;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: #30488f;
+    }
+}
+
+.main-menu {
+    display: inline-block;
+
+    li {
+        margin-right: 20px;
+    }
+}
+
+.links-menu {
+    display: inline-block;
+    float: right;
+}
+
+#sign-up-btn {
+    padding: 0 20px;
+    line-height: 35px;
+    border: 1px solid #30488f;
+    background: #fff;
+    color: #30488f;
+    border-radius: 7px;
+
+    &:hover {
+        background-color: #30488f;
+        color: white;
+    }
+
 }
