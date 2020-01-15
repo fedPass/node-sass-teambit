@@ -1,3 +1,25 @@
+#chat-icon {
+    z-index: 100;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 6px 0px, rgba(0, 0, 0, 0.16) 0px 2px 32px 0px;
+    border-radius: 50%;
+    background: rgb(46, 70, 145);
+
+    i {
+        color: white;
+        font-size: 30px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
 .jumbo {
     width: 1150px;
     margin: 100px auto;
@@ -5,6 +27,10 @@
     div {
         width: 50%;
         float: left;
+    }
+
+    a:hover {
+        color: #30488f;
     }
 }
 

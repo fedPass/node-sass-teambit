@@ -79,6 +79,28 @@ header a:hover {
   color: white;
 }
 
+#chat-icon {
+  z-index: 100;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 6px 0px, rgba(0, 0, 0, 0.16) 0px 2px 32px 0px;
+  border-radius: 50%;
+  background: #2e4691;
+}
+
+#chat-icon i {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .jumbo {
   width: 1150px;
   margin: 100px auto;
@@ -87,6 +109,10 @@ header a:hover {
 .jumbo div {
   width: 50%;
   float: left;
+}
+
+.jumbo a:hover {
+  color: #30488f;
 }
 
 .jumbo-text h1 {
