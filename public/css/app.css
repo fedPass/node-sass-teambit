@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color: #58402c;
+header {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+ul {
+  list-style-type: none;
 }
 
