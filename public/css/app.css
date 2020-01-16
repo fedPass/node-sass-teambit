@@ -149,6 +149,15 @@ header a:hover {
 
 #how-work {
   background-color: #ffe7d2;
+  padding-bottom: 80px;
+}
+
+#how-work h2 {
+  max-width: 628px;
+  line-height: 40px;
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: center;
 }
 
 .top-how-work,
@@ -159,18 +168,11 @@ header a:hover {
   text-align: center;
 }
 
-.top-how-work h2,
-.bottom-how-work h2 {
-  max-width: 628px;
-  line-height: 27px;
-  margin: 0 auto;
-  font-weight: bold;
-}
-
 .top-how-work .how-work-container,
 .bottom-how-work .how-work-container {
   max-width: 860px;
   margin: 0 auto;
+  padding-bottom: 80px;
 }
 
 .top-how-work .how-work-container .how-work-box,
@@ -183,7 +185,7 @@ header a:hover {
 .top-how-work .how-work-container .how-work-box .img-box,
 .bottom-how-work .how-work-container .how-work-box .img-box {
   width: 100%;
-  height: 238px;
+  height: 180px;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -197,12 +199,22 @@ header a:hover {
   width: 50%;
 }
 
-.top-how-work .how-work-container .how-work-box .img-box p,
-.bottom-how-work .how-work-container .how-work-box .img-box p {
+.top-how-work .how-work-container .how-work-box p,
+.bottom-how-work .how-work-container .how-work-box p {
   font-size: 18px;
+  padding: 0 20px;
 }
 
 .top-how-work {
   border-bottom: 1px solid #58402c;
+}
+
+.big-img-box {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.big-img-box img {
+  width: 100%;
 }
 
