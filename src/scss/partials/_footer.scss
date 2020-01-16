@@ -1,0 +1,43 @@
+.footer-container {
+    width: $container_width;
+    margin: 100px auto;
+}
+
+.footer-right, .footer-left {
+    float: left;
+}
+
+.footer-left {
+    width: 40%;
+    display: flex;
+
+    img {
+        width: 50px;
+    }
+
+    strong {
+        font-size: 18px;
+        line-height: 23px;
+        width: 335px;
+        margin-left: 20px;
+    }
+}
+
+.footer-right {
+    width: 60%;
+
+    ul {
+        width: 19%;
+        line-height: 33px;
+        display: inline-block;
+        list-style-type: none;
+        font-size: 14px;
+    }
+
+
+    ul li:first-child {
+        font-weight: bold;
+        font-size: 18px;
+
+    }
+}

@@ -393,3 +393,47 @@ header a:hover {
   display: block;
 }
 
+.footer-container {
+  width: 1150px;
+  margin: 100px auto;
+}
+
+.footer-right,
+.footer-left {
+  float: left;
+}
+
+.footer-left {
+  width: 40%;
+  display: -webkit-box;
+  display: flex;
+}
+
+.footer-left img {
+  width: 50px;
+}
+
+.footer-left strong {
+  font-size: 18px;
+  line-height: 23px;
+  width: 335px;
+  margin-left: 20px;
+}
+
+.footer-right {
+  width: 60%;
+}
+
+.footer-right ul {
+  width: 19%;
+  line-height: 33px;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.footer-right ul li:first-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+
