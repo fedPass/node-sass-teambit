@@ -45,7 +45,8 @@ button {
 }
 
 header {
-  max-width: 1150px;
+  width: 1150px;
+  height: 80px;
   margin: 0 auto;
   padding: 20px 0;
   border-bottom: 1px solid #58402c;
@@ -324,6 +325,7 @@ header a:hover {
 }
 
 .strip-text-container a {
+  display: block;
   color: #30488F;
 }
 
@@ -336,8 +338,58 @@ header a:hover {
   float: right;
 }
 
-.features-link {
+/*-----team-message----*/
+
+#team-message {
+  background-color: #ffe7d2;
+  padding: 50px 0;
+}
+
+.message-container {
+  width: 630px;
+  margin: 0 auto;
+}
+
+.message-container h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.message-container blockquote {
+  background-color: white;
+  border: 1px solid #58402c;
+  padding: 20px;
+  padding-left: 40px;
+  border-radius: 7px;
+  position: relative;
+  line-height: 27px;
+}
+
+.message-container blockquote i {
+  position: absolute;
+  top: -30px;
+  left: -8px;
+  font-size: 40px;
+  color: #11118b;
+}
+
+.author img {
+  width: 38px;
+  margin-right: 12px;
+}
+
+.author-name {
+  display: inline-block;
+}
+
+.sign-up-container {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.sign-up-container a {
   display: block;
-  color: #58402c;
 }
 
