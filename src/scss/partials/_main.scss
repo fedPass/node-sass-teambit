@@ -135,14 +135,43 @@
     width: 100%;
 }
 
+.left-strip,
+.right-strip {
+    margin: 80px 0;
+}
+
+.left-strip {
+    .strip-text,
+    .strip-image {
+        float: left;
+    }
+}
+
+.right-strip {
+    .strip-text,
+    .strip-image {
+        float: right;
+    }
+    .strip-text .strip-text-container {
+        float: right;
+        img {
+            margin-left: 20%;
+            float: unset;
+        }
+    }
+}
+
 .left-strip .strip-image img {
+    @include move_to_left;
+}
+
+.right-strip .strip-image img {
     @include move_to_right;
 }
 
 .strip-image,
 .strip-text {
     width: 50%;
-    float: left;
 }
 
 .strip-image img {

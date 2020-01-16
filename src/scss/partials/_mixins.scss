@@ -5,7 +5,11 @@
     transform: translate(-50%, -50%);
 }
 
-@mixin move_to_right {
+@mixin move_to_left {
     margin-left: -15px;
     margin-right: 15px;
+}
+
+@mixin move_to_right {
+    margin-left: 15px;
 }
