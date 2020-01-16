@@ -2,7 +2,7 @@ header {
     max-width: 1150px;
     margin: 0 auto;
     padding: 20px 0;
-    border-bottom: $border_bottom;
+    border-bottom: $border_brown;
 
     li {
         display: inline-block;
@@ -37,7 +37,7 @@ header {
     border: 1px solid #30488f;
     background: #fff;
     color: #30488f;
-    border-radius: 7px;
+    border-radius: $bor_rad_standard;
 
     &:hover {
         background-color: #30488f;
@@ -47,5 +47,16 @@ header {
 }
 
 #dropped-link {
-    
+    padding: 10px;
+
+}
+
+#dropped-link:hover + .sub-menu.hidden {
+    display: flex;
+    flex-direction: column;
+    border: $border_brown;
+    border-radius: $bor_rad_standard;
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;
 }
