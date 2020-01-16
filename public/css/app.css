@@ -46,6 +46,7 @@ button {
 
 header {
   position: fixed;
+  z-index: 200;
   top: 0;
   right: 0;
   left: 0;
@@ -53,6 +54,7 @@ header {
   height: 80px;
   padding: 20px 0;
   border-bottom: 1px solid #58402c;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.08);
 }
 
 header nav {
@@ -101,15 +103,21 @@ header a:hover {
   color: white;
 }
 
-#dropped-link {
-  padding: 10px;
+.dropdown {
+  position: relative;
 }
 
-#dropped-link:hover + .sub-menu {
-  display: none;
+.dropdown-toggle {
+  padding-bottom: 20px;
+}
+
+.dropdown-toggle:hover + .sub-menu {
+  display: -webkit-box;
+  display: flex;
 }
 
 .sub-menu {
+  position: absolute;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
