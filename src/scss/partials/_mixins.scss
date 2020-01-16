@@ -4,3 +4,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@mixin move_to_right {
+    margin-left: -15px;
+    margin-right: 15px;
+}

@@ -8,13 +8,13 @@
     box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 6px 0px, rgba(0, 0, 0, 0.16) 0px 2px 32px 0px;
     border-radius: 50%;
     background: rgb(46, 70, 145);
+    cursor: pointer;
 
     i {
         color: white;
         font-size: 30px;
         @include centra_transform;
     }
-
 }
 
 /*---- jumbo -----*/
@@ -52,7 +52,6 @@
     }
 
     .jumbo-link {
-        margin-top: 30px;
         display: block;
         color: $text_color;
     }
@@ -117,9 +116,8 @@
     border-bottom: $border_brown;
 }
 
-.bottom-how-work img:last-of-type {
-    // height: 50%;
-    // width: 25%;
+#last-img {
+    width: 25%;
 }
 
 .big-img-box {
@@ -129,4 +127,53 @@
     img {
         width: 100%;
     }
+}
+
+/*-----features-----*/
+
+#features {
+    width: 100%;
+}
+
+.left-strip .strip-image img {
+    @include move_to_right;
+}
+
+.strip-image,
+.strip-text {
+    width: 50%;
+    float: left;
+}
+
+.strip-image img {
+    width: 100%;
+}
+
+.strip-text-container {
+    width: 420px;
+    h3 {
+        font-size:26px;
+        margin-bottom: 13px;
+    }
+
+    p,
+    a {
+        font-size:22px;
+    }
+
+    a {
+        color: #30488F;
+        &:hover {
+            color: #263972;
+        }
+    }
+
+    img {
+        width: 60%;
+        float: right;
+    }
+}
+.features-link {
+    display: block;
+    color: $text_color;
 }

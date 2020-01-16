@@ -4,6 +4,10 @@ header {
     padding: 20px 0;
     border-bottom: $border_brown;
 
+    nav {
+        line-height: 35px;
+    }
+
     li {
         display: inline-block;
     }
@@ -51,12 +55,20 @@ header {
 
 }
 
-#dropped-link:hover + .sub-menu.hidden {
-    display: flex;
+#dropped-link:hover + .sub-menu {
+    //da correggere
+    display: none;
+}
+
+.sub-menu {
+    display: none;
     flex-direction: column;
+    padding: 10px;
     border: $border_brown;
     border-radius: $bor_rad_standard;
     background-color: white;
-    padding: 10px;
-    margin-top: 5px;
+
+    li {
+        margin-bottom: 7px;
+    }
 }

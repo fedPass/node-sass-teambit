@@ -32,11 +32,27 @@ a {
   border: none;
 }
 
+button {
+  cursor: pointer;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
 header {
   max-width: 1150px;
   margin: 0 auto;
   padding: 20px 0;
   border-bottom: 1px solid #58402c;
+}
+
+header nav {
+  line-height: 35px;
 }
 
 header li {
@@ -83,17 +99,23 @@ header a:hover {
   padding: 10px;
 }
 
-#dropped-link:hover + .sub-menu.hidden {
-  display: -webkit-box;
-  display: flex;
+#dropped-link:hover + .sub-menu {
+  display: none;
+}
+
+.sub-menu {
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
+  padding: 10px;
   border: 1px solid #58402c;
   border-radius: 7px;
   background-color: white;
-  padding: 10px;
-  margin-top: 5px;
+}
+
+.sub-menu li {
+  margin-bottom: 7px;
 }
 
 #chat-icon {
@@ -106,6 +128,7 @@ header a:hover {
   box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 6px 0px, rgba(0, 0, 0, 0.16) 0px 2px 32px 0px;
   border-radius: 50%;
   background: #2e4691;
+  cursor: pointer;
 }
 
 #chat-icon i {
@@ -153,7 +176,6 @@ header a:hover {
 }
 
 .jumbo-text .jumbo-link {
-  margin-top: 30px;
   display: block;
   color: #58402c;
 }
@@ -226,6 +248,10 @@ header a:hover {
   border-bottom: 1px solid #58402c;
 }
 
+#last-img {
+  width: 25%;
+}
+
 .big-img-box {
   width: 280px;
   margin: 0 auto;
@@ -233,5 +259,58 @@ header a:hover {
 
 .big-img-box img {
   width: 100%;
+}
+
+/*-----features-----*/
+
+#features {
+  width: 100%;
+}
+
+.left-strip .strip-image img {
+  margin-left: -15px;
+  margin-right: 15px;
+}
+
+.strip-image,
+.strip-text {
+  width: 50%;
+  float: left;
+}
+
+.strip-image img {
+  width: 100%;
+}
+
+.strip-text-container {
+  width: 420px;
+}
+
+.strip-text-container h3 {
+  font-size: 26px;
+  margin-bottom: 13px;
+}
+
+.strip-text-container p,
+.strip-text-container a {
+  font-size: 22px;
+}
+
+.strip-text-container a {
+  color: #30488F;
+}
+
+.strip-text-container a:hover {
+  color: #263972;
+}
+
+.strip-text-container img {
+  width: 60%;
+  float: right;
+}
+
+.features-link {
+  display: block;
+  color: #58402c;
 }
 
