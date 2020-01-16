@@ -34,10 +34,17 @@
         font-size: 14px;
     }
 
-
     ul li:first-child {
         font-weight: bold;
         font-size: 18px;
 
+        &:hover {
+            cursor: auto;
+        }
+
+    }
+
+    li:hover {
+        cursor: pointer;
     }
 }

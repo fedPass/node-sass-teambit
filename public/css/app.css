@@ -437,3 +437,11 @@ header a:hover {
   font-size: 18px;
 }
 
+.footer-right ul li:first-child:hover {
+  cursor: auto;
+}
+
+.footer-right li:hover {
+  cursor: pointer;
+}
+
