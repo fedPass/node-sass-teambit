@@ -45,14 +45,19 @@ button {
 }
 
 header {
-  width: 1150px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #ffffff;
   height: 80px;
-  margin: 0 auto;
   padding: 20px 0;
   border-bottom: 1px solid #58402c;
 }
 
 header nav {
+  width: 1150px;
+  margin: 0 auto;
   line-height: 35px;
 }
 
@@ -145,6 +150,7 @@ header a:hover {
 /*---- jumbo -----*/
 
 .jumbo {
+  background-color: #ffffff;
   width: 1150px;
   margin: 100px auto;
 }
@@ -265,6 +271,7 @@ header a:hover {
 /*-----features-----*/
 
 #features {
+  background-color: #ffffff;
   width: 100%;
 }
 

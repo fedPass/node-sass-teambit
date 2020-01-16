@@ -1,11 +1,16 @@
 header {
-    width: $container_width;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: $light_background;
     height: 80px;
-    margin: 0 auto;
     padding: 20px 0;
     border-bottom: $border_brown;
 
     nav {
+        width: $container_width;
+        margin: 0 auto;
         line-height: 35px;
     }
 
