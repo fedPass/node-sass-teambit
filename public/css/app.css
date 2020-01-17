@@ -111,7 +111,7 @@ header a:hover {
   padding-bottom: 20px;
 }
 
-.dropdown-toggle:hover + .sub-menu {
+.dropdown:hover .sub-menu {
   display: -webkit-box;
   display: flex;
 }
@@ -161,6 +161,7 @@ header a:hover {
   background-color: #ffffff;
   width: 1150px;
   margin: 100px auto;
+  padding-top: 80px;
 }
 
 .jumbo div {

@@ -64,10 +64,9 @@ header {
 
 .dropdown-toggle {
     padding-bottom: 20px;
-
 }
 
-.dropdown-toggle:hover + .sub-menu {
+.dropdown:hover .sub-menu {
     display: flex;
 }
 
